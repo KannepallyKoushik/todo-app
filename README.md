@@ -1,22 +1,21 @@
  # [TODO-App](https://todo-app-da655.web.app/ "Click Here ")
  A Well-designed to-do app that fit into your workflow so you can get back to what you're supposed to be doing.This App makes it fast to add and organize tasks.
 
-In the code snippet mention a line -> import firebase from "firebase" ;
-
 ## Available Scripts
 
  Move to project directory and run this below command to install the dependencies
 
 ### `npm install`
-1.Go to console.firebase.com <br />
+1.Go to console.firebase.com<br />
 2.Create a project in Firebase<br />
 3.Create a Database<br />
-4.Create `firebase.js` in src directory in your project<br />
-5.Copy the configuration key from database <br />
-6.Paste the code in source directory<br />
+4.Copy the configuration key from database<br />
+5.Create `firebase.js` in src directory in your project<br />
+6.Copy the below code and paste it in `firebase.js`<br />
+7.Replace the keys in configuration with the code you copied from database<br />
 
 ```JavaScript
- Move to project directory and run this below command to install the dependencies
+import firebase from "firebase";
  
 const config = {
   // PapiKey: '<your-api-key>',
